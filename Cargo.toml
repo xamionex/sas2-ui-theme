@@ -1,0 +1,13 @@
+[package]
+name = "sas2-ui-theme"
+version = "0.1.0"
+edition = "2024"
+description = "Shared UI theming for my Salt and Sacrifice tools (save editor and resalinated)"
+
+[dependencies]
+egui = "0.36.2"
+serde = { version = "1.0", features = ["derive"] }
+arboard = { version = "3.6", features = ["wayland-data-control"] }
+
+[dev-dependencies]
+serde_json = "1.0"
